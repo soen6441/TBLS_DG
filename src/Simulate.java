@@ -9,6 +9,7 @@ public class Simulate {
 
 	public static void main (String args[])
 	 {
+		System.out.println("running simulations");
 		TBLS_Unidirectional tbls_u = new TBLS_Unidirectional();
 		int max_range=50;
 		int locality=10;
